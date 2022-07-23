@@ -1,0 +1,666 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Lora:ital,wght@0,700;1,700&family=Mulish&family=Poppins:ital,wght@0,500;1,700&family=Roboto:ital,wght@0,300;0,700;0,900;1,300&family=Spinnaker&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+    integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+    integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Lora:ital,wght@0,400;0,600;1,400;1,500&family=Roboto:wght@700;900&family=Spinnaker&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Lora:ital,wght@0,400;0,600;1,400;1,500&family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&family=Spinnaker&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Lora:ital,wght@0,400;0,600;1,400;1,500&family=Roboto:ital,wght@0,400;0,700;0,900;1,300;1,400&family=Spinnaker&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/style.scss">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style.css">
+  <title>NGO</title>
+</head>
+
+<body>
+  <!-- header-top start -->
+  <div class="container-fluid header-top">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="header-left">
+          <i class="bi bi-telephone text-light"> </i>
+          <span class="text-light"> +10 (78) 564 4568 | info.90@chariter.com </span>
+        </div>
+      </div>
+      <div class="col-lg-6 text-light">
+        <div class="icons d-flex justify-content-end">
+          <i class="bi bi-facebook px-2"></i>
+          <i class="bi bi-twitter px-2"></i>
+          <i class="bi bi-linkedin px-2"></i>
+          <i class="bi bi-instagram px-2"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- header-top end -->
+  <!-- navbar-start -->
+  <section class="sticky-top">
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="img/download.webp" alt="">
+      </a>
+      <nav>
+        <input type="checkbox" id="click">
+        <label for="click" class="menu-btn">
+          <i class="bi bi-list"></i>
+        </label>
+        <ul class="mt-4">
+          <li><a class="active" href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <div class="right-menu">
+            <span class="menu">Blog</span>
+            <div class="dropdown-menu">
+              <a href="#">Blog</a>
+              <a href="#">Blog Details</a>
+              <a href="#">Elements</a>
+            </div>
+          </div>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">Feedback</a></li>
+          <button class="btn btn-danger">Donate Now</button>
+        </ul>
+      </nav>
+    </div>
+  </nav>
+</section>
+  <!-- navbar-end -->
+  <!-- carousel-1-start -->
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="first-slide-image img-fluid">
+          <div class="carousel-caption">
+            <div class="slider-one-content">
+              <h1>Support a causes <br> <span>you care about</span> </h1>
+              <h4>Sedac odio aliquet, fringilla odio eget, tincidunt nunc. Duis aliquet <br> <small> pulvinar ante
+                  tempor etiam lacus eros</small>
+              </h4>
+              <div class="new">
+                <button type="button" class="btn btn-danger2 text-light ">Active Cases</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="second-slide-image">
+          <div class="carousel-caption">
+            <div class="slider-two-content text-center">
+              <h1>Support a causes <br> <span>you care about</span> </h1>
+              <h4>Sedac odio aliquet, fringilla odio eget, tincidunt nunc. Duis aliquet <br> <small> pulvinar ante
+                  tempor etiam lacus eros</small>
+              </h4>
+              <div class="new">
+                <button type="button" class="btn btn-danger2 text-light ">Active Cases</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="third-slide-image">
+          <div class="carousel-caption">
+            <div class="slider-third-content">
+              <h1>Support a causes <br> <span>you care about</span> </h1>
+              <h4>Sedac odio aliquet, fringilla odio eget, tincidunt nunc. Duis aliquet <br> <small> pulvinar ante
+                  tempor etiam lacus eros</small>
+              </h4>
+              <div class="new">
+                <button type="button" class="btn btn-danger2 text-light ">Active Cases</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- carousel-1-end -->
+  <div class="container-fluid">
+    <div class="row g-0">
+      <div class="col-lg-12">
+        <h1 class="text-center causes">causes we are serving</h1>
+      </div>
+    </div>
+  </div>
+  <!-- carouel-2-start -->
+  <div class="container mt-5 bg-light">
+    <div class="row slider d-flex justify-content space-between">
+      <div class="col-md-12">
+        <div class="card" style="width: 24rem;">
+          <img src="img/xservices-img1.jpg.pagespeed.ic.auThn24pGN.webp" class="card-img-top" alt="...">
+          <div class="prog">
+            <div class="skillss">
+              <div class="progress-barss">
+                <div class="html"> <span>65%</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="card-body mt-3">
+            <h3 class="card-title">Help the ecosystems</h3>
+            <p class="card-text">Sedac odio aliquet, fringilla odio eget, tincidunt <br> nunc duis aliquet
+              pulvinar ante.</p>
+            <div class="properties-footer">
+              <div class="class-day">
+                <button class="button button3">Donate</button>
+               
+               
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="card" style="width: 24rem;">
+          <img src="img/xservices-img2.jpg.pagespeed.ic.2R6RbvsOB_.webp" class="card-img-top" alt="...">
+          <div class="prog">
+            <div class="skillss">
+              <div class="progress-barss">
+                <div class="html"> <span>65%</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="card-body mt-3">
+            <h3 class="card-title">Help the ecosystems</h3>
+            <p class="card-text">Sedac odio aliquet, fringilla odio eget, tincidunt <br> nunc duis aliquet
+              pulvinar ante.</p>
+            <div class="properties-footer d-flex justify-content-between align-items-center">
+              <div class="class-day">
+                <button class="button button3">Donate</button>
+                <div class="class-two ms-5"> <span class="color-font2">$67,845</span>
+                  <p>Goal</p>
+                </div>
+                <div class="class-three ms-5">
+                  <span class="color-font2">$67,845</span>
+                  <p>Raised</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="card" style="width: 24rem;">
+          <img src="img/xservices-img3.jpg.pagespeed.ic.vRERZkBFfM.webp" class="card-img-top" alt="...">
+          <div class="prog">
+            <div class="skillss">
+              <div class="progress-barss">
+                <div class="html"> <span>65%</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="card-body mt-3">
+            <h3 class="card-title">Help the ecosystems</h3>
+            <p class="card-text">Sedac odio aliquet, fringilla odio eget, tincidunt <br> nunc duis aliquet
+              pulvinar ante.</p>
+            <div class="properties-footer d-flex justify-content-between align-items-center">
+              <div class="class-day">
+                <button class="button button3">Donate</button>
+                <div class="class-two ms-5"> <span class="color-font2">$67,845</span>
+                  <p>Goal</p>
+                </div>
+                <div class="class-three ms-5">
+                  <span class="color-font2">$67,845</span>
+                  <p>Raised</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="card" style="width: 24rem;">
+          <img src="img/xservices-img1.jpg.pagespeed.ic.auThn24pGN.webp" class="card-img-top" alt="...">
+          <div class="prog">
+            <div class="skillss">
+              <div class="progress-barss">
+                <div class="html"> <span>65%</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="card-body mt-3">
+            <h3 class="card-title">Help the ecosystems</h3>
+            <p class="card-text">Sedac odio aliquet, fringilla odio eget, tincidunt <br> nunc duis aliquet
+              pulvinar ante.</p>
+            <div class="properties-footer d-flex justify-content-between align-items-center">
+              <div class="class-day">
+                <button class="button button3">Donate</button>
+                <div class="class-two ms-5"> <span class="color-font2">$67,845</span>
+                  <p>Goal</p>
+                </div>
+                <div class="class-three ms-5">
+                  <span class="color-font2">$67,845</span>
+                  <p>Raised</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="card" style="width: 24rem;">
+          <img src="img/xservices-img2.jpg.pagespeed.ic.2R6RbvsOB_.webp" class="card-img-top" alt="...">
+          <div class="prog">
+            <div class="skillss">
+              <div class="progress-barss">
+                <div class="html"> <span>65%</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="card-body mt-3">
+            <h3 class="card-title">Help the ecosystems</h3>
+            <p class="card-text">Sedac odio aliquet, fringilla odio eget, tincidunt <br> nunc duis aliquet
+              pulvinar ante.</p>
+            <div class="properties-footer d-flex justify-content-between align-items-center">
+              <div class="class-day">
+                <button class="button button3">Donate</button>
+                <div class="class-two ms-5"> <span class="color-font2">$67,845</span>
+                  <p>Goal</p>
+                </div>
+                <div class="class-three ms-5">
+                  <span class="color-font2">$67,845</span>
+                  <p>Raised</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="card" style="width: 24rem;">
+          <img src="img/xservices-img3.jpg.pagespeed.ic.vRERZkBFfM.webp" class="card-img-top" alt="...">
+          <div class="prog">
+            <div class="skillss">
+              <div class="progress-barss">
+                <div class="html"> <span>65%</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="card-body mt-3">
+            <h3 class="card-title">Help the ecosystems</h3>
+            <p class="card-text">Sedac odio aliquet, fringilla odio eget, tincidunt <br> nunc duis aliquet
+              pulvinar ante.</p>
+            <div class="properties-footer d-flex justify-content-between align-items-center">
+              <div class="class-day">
+                <button class="button button3">Donate</button>
+                <div class="class-two ms-5"> <span class="color-font2">$67,845</span>
+                  <p>Goal</p>
+                </div>
+                <div class="class-three ms-5">
+                  <span class="color-font2">$67,845</span>
+                  <p>Raised</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- carousel-2 end -->
+  <!-- content-part-start -->
+  <div class="Support">
+    <div class="container mx-5">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-xl-6">
+          <div class="support-image">
+            <img src="img/xabout.jpg.pagespeed.ic.jiiWnfFI-S.webp" alt="" width="100%" class="ms-5">
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="section-title">
+            <h2 class="ms-5">Who we are?</h2>
+          </div>
+          <p class="lacus">Sedac odio aliquet, fringilla odio eget, tincidunt nunc. Duis aliquet
+            pulvinar ante tempor
+            etiam lacus eros</p>
+          <p class="pera-top">The legal definition of a charitable organization (and of charity) 
+            varies between countries and in some instances regions of the 
+            country. The regulation, the tax treatment, and the way in which 
+            charity law affects charitable organizations also vary.</p>
+          <button class="button button7 ">Learn More</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- content-part end -->
+  <!-- counter-part start -->
+  <div class="counter-part">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 charitable-one">
+          <div class="counter-img">
+          </div>
+          <span class="counter">35</span>
+          <span class="plus">+</span>
+          <p class="color-green">Active Cases</p>
+        </div>
+        <div class="col-lg-3 charitable-two">
+          <div class="counter-img">
+          </div>
+          <span class="counter">12</span>
+          <span class="plus">m</span>
+          <p class="color-green">People Joined</p>
+        </div>
+        <div class="col-lg-3 charitable-three">
+          <div class="counter-img">
+          </div>
+          <span class="counter">200</span>
+          <span class="plus">m</span>
+          <p class="color-green">Cases every Year</p>
+        </div>
+        <div class="col-lg-3 charitable-four">
+          <div class="counter-img">
+          </div>
+          <span class="counter">1200 </span>
+          <span class="plus">m</span>
+          <p class="color-green">People get help from us</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- hero section start -->
+  <div class="container hero">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="section-two">
+          <h2 class="text-center serve">We serve for peoples</h2>
+          <p class="text-center para">Sedac odio aliquet, fringilla odio eget, tincidunt nunc duis aliquet pulvinar
+            ante.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-between text-center">
+      <div class="col-lg-4">
+        <img src="img/services1.svg" alt="">
+        <h5 class="pure-food">Pure Food & Water</h5>
+        <p class="odio">Odio aliquet, fringilla odio eget, tincidunt <br>
+          nunc duis aliquet pulvinar ante employees <br>
+          and organizations to support.</p>
+      </div>
+      <div class="col-lg-4">
+        <img src="img/services2.svg" alt="">
+        <h5 class="pure-food">Health & Medicine</h5>
+        <p class="odio">Odio aliquet, fringilla odio eget, tincidunt <br>
+          nunc duis aliquet pulvinar ante employees <br>
+          and organizations to support.</p>
+      </div>
+      <div class="col-lg-4">
+        <img src="img/services1 (1).svg" alt="">
+        <h5 class="pure-food">Education</h5>
+        <p class="odio">Odio aliquet, fringilla odio eget, tincidunt <br>
+          nunc duis aliquet pulvinar ante employees <br>
+          and organizations to support.</p>
+      </div>
+    </div>
+  </div>
+  <!-- hero-section-end -->
+  <!-- content-part start -->
+  <div class="emergencycare">
+    <div class="container">
+      <div class="row justify-content-end">
+        <div class="col-xl-6 col-lg-8 col-md-9 col-sm-12 ">
+          <div class="single-emergency">
+            <div class="emergency-cap">
+              <h5>They need your help</h5>
+              <p>Sedac odio aliquet, fringilla odio eget, tincidunt nunc. Duis <br>
+                aliquet pulvinar ante tempor etiam lacus eros</p>
+              <p class="emargenc-cap">Sedac odio aliquet, fringilla odio eget, tincidunt nunc. Duis <br>
+                aliquet pulvinar ante tempor etiam lacus eros</p>
+              <button class="button button8">Donate in a case</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- join us area start -->
+  <div class="join-us-area">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-xl-4 col-lg-5 col-md-10">
+          <div class="joining-details">
+            <div class="section-join">
+              <h2>Join with Us</h2>
+            </div>
+            <p>The legal definition of a charitable organization
+              (and <br> of charity) varies between countries and in some <br>
+              instances regions of the country. The regulation, <br> the tax treatment, and the way.</p>
+            <button class="button button9">Join Now</button>
+          </div>
+        </div>
+        <div class="offset-xl-1 col-xl-4 col-lg-4 col-md-7 col-sm-7">
+          <div class="joining-img">
+            <img src="img/xjoining1.jpg.pagespeed.ic.45qc-jRgkQ.webp" alt="" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-5 col-sm-5">
+          <div class="joning-img-two">
+            <img src="img/xjoining2.jpg.pagespeed.ic.vOx_O3gUQK.webp" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- join-us-area-end -->
+  <!-- footer-part-start -->
+  <footer>
+    <div class="footer-wrapper">
+      <div class="footer-area footer-padding">
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-8">
+              <div class="single-footer-caption mb-20">
+                <div class="footer-logo">
+                  <img src="img/xlogo2_footer.png.pagespeed.ic.cIEBuIsFtT.webp" alt="">
+                </div>
+              </div>
+              <div class="footer-title">
+                <div class="footer-pera">
+                  <p>Seddo eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Conse ctetur pisicinelit, sed do eiusmod tempor.</p>
+                </div>
+              </div>
+              <div class="footer-social d-flex">
+                <div class="fb mx-1"> <i class="bi bi-facebook"></i></div>
+                <div class="insta mx-3"><i class="bi bi-instagram"></i></div>
+                <div class="linkedin mx-3"><i class="bi bi-linkedin"></i></div>
+                <div class="youtube mx-3"><i class="bi bi-youtube"></i></div>
+              </div>
+            </div>
+            <div class="offset-xl-1 col-xl-2 col-lg-2 col-md-4 col-sm-6">
+              <div class="single-footer-caption">
+                <div class="footer-navigate text-light">
+                  <h4>Navigation</h4>
+                  <ul class="list-unstyled text-light">
+                    <li class="mt-4">Home</li>
+                    <li class="mt-3">About</li>
+                    <li class="mt-3">Services</li>
+                    <li class="mt-3">Blog </li>
+                    <li class="mt-3">Contact</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6">
+              <div class="service-caption">
+                <div class="footer-services text-light">
+                  <h4>Services</h4>
+                  <ul class="list-unstyled text-light">
+                    <li class="mt-4">Pet Care</li>
+                    <li class="mt-3">Pet Treatment</li>
+                    <li class="mt-3">Pet Trainingl</li>
+                    <li class="mt-3">Hygienic Care</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-8">
+              <div class="subscribe">
+                <div class="newsletter text-light">
+                  <h4>Subscribe newsletter</h4>
+                  <p class="mt-4">Subscribe our newsletter to get updates about our services <br> and offers.</p>
+                  <div class="footer-form">
+                    <div id="mc_embed_signup">
+                      <div class="mb-5">
+                        <label for="exampleFormControlInput1" class="form-label"></label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                          placeholder="Enter your Email">
+                        <div class="form-icon">
+                          <button type="submit" name="submit" class="contact-Form">
+                            <i class="bi bi-arrow-right text-light"></i>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer-part-end -->
+  <!-- footer-bottom-area-start -->
+  <div class="footer-bottom-area">
+    <div class="container">
+      <div class="footer-border">
+        <div class="row">
+          <div class="col-xl-12">
+            <div class="footer-copy-right text-center text-light">
+              <p>Copyright ©2020 All rights reserved | This template is made with <i class="bi bi-suit-heart-fill"></i>
+                by <a href="#" target="_blank">Colorlib</a> </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+    integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script>
+    $('.slider').slick({
+      dots: true,
+      infinite: true,
+      speed: 300,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            infinite: true,
+            dots: false
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            arrows: false
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false
+          }
+        }
+
+      ]
+    });
+
+
+  </script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 300,
+      duration: 3000,
+    });
+  </script>
+
+
+  <script src=https://code.jquery.com/jquery-3.6.0.js></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"
+    integrity="sha512-+/4Q+xH9jXbMNJzNt2eMrYv/Zs2rzr4Bu2thfvzlshZBvH1g+VGP55W8b6xfku0c0KknE7qlbBPhDPrHFbgK4g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"
+    integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="jquery.counterup.min.js"></script>
+  <script>
+    $('.counter').counterUp({
+      delay: 10,
+      time: 1000
+    });
+  </script>
+</body>
+</html>
