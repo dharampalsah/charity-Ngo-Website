@@ -14,7 +14,6 @@
 }
 
 nav {
-  background: #fff;
   height: 80px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -507,9 +506,9 @@ a.navbar-brand {
 }
 
 .carousel-indicators {
-  position: absolute;
-  top: 80%;
-  left: 65%;
+  position: relative;
+  top: 50%;
+  left: 80%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   border-radius: 50%;
@@ -529,7 +528,7 @@ a.navbar-brand {
   border-radius: 50%;
 }
 
-.carousel-indicators.active::before {
+.carousel-indicators [data-bs-target].active::before {
   position: absolute;
   content: "";
   height: 23px;
