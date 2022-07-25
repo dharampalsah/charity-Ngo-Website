@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -115,7 +115,7 @@
       <div class="carousel-item active">
         <div class="first-slide-image img-fluid">
           <div class="carousel-caption">
-            <div class="slider-one-content">
+            <div class="slider-one-content" data-aos="fade-up">
               <h1>Support a causes <br> <span>you care about</span> </h1>
               <h4>Sedac odio aliquet, fringilla odio eget, tincidunt nunc. Duis aliquet <br> <small> pulvinar ante
                   tempor etiam lacus eros</small>
@@ -130,7 +130,7 @@
       <div class="carousel-item">
         <div class="second-slide-image">
           <div class="carousel-caption">
-            <div class="slider-two-content text-center">
+            <div class="slider-two-content text-center" data-aos="fade-up">
               <h1>Support a causes <br> <span>you care about</span> </h1>
               <h4>Sedac odio aliquet, fringilla odio eget, tincidunt nunc. Duis aliquet <br> <small> pulvinar ante
                   tempor etiam lacus eros</small>
@@ -145,7 +145,7 @@
       <div class="carousel-item">
         <div class="third-slide-image">
           <div class="carousel-caption">
-            <div class="slider-third-content">
+            <div class="slider-third-content" data-aos="fade-up">
               <h1>Support a causes <br> <span>you care about</span> </h1>
               <h4>Sedac odio aliquet, fringilla odio eget, tincidunt nunc. Duis aliquet <br> <small> pulvinar ante
                   tempor etiam lacus eros</small>
@@ -160,7 +160,7 @@
     </div>
   </div>
   <!-- carousel-1-end -->
-  <div class="container-fluid">
+  <div class="container-fluid" data-aos="fade-up">
     <div class="row g-0">
       <div class="col-lg-12">
         <h1 class="text-center causes">causes we are serving</h1>
@@ -638,13 +638,7 @@
 
 
   </script>
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init({
-      offset: 300,
-      duration: 3000,
-    });
-  </script>
+
 
 
   <script src=https://code.jquery.com/jquery-3.6.0.js></script>
@@ -662,5 +656,13 @@
       time: 1000
     });
   </script>
+    <!-- our aos data -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 300,
+        duration: 1000,
+      });
+    </script>
 </body>
 </html>
