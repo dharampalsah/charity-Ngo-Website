@@ -577,7 +577,7 @@ a.navbar-brand {
 
 .Support {
   background-color: #fcf8f9;
-  width: 1880px;
+  width: 100%;
   height: 749.91px;
   margin-top: 100px;
 }
@@ -603,6 +603,8 @@ a.navbar-brand {
 
 .support-image {
   margin-top: 150px;
+  width: 100%;
+  overflow: hidden;
 }
 
 .section-title {
